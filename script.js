@@ -121,3 +121,11 @@ list.addEventListener(
 
 //Clear all items in local storage
 // localStorage.clear();
+
+window.addEventListener("DOMContentLoaded", (event) => {
+  // Get the input element
+  const myInput = document.getElementById("myInput");
+
+  // Set focus on the input element when the page loads
+  myInput.focus();
+});
