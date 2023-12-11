@@ -119,9 +119,6 @@ list.addEventListener(
   false
 );
 
-//Clear all items in local storage
-// localStorage.clear();
-
 window.addEventListener("DOMContentLoaded", (event) => {
   // Get the input element
   const myInput = document.getElementById("myInput");
@@ -129,3 +126,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
   // Set focus on the input element when the page loads
   myInput.focus();
 });
+
+//use this to clear all items or list
+// localStorage.clear(); \\
+// pede rapud ka himog button para delete tanang list
